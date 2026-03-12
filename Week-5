@@ -1,0 +1,101 @@
+//1//
+#include <iostream>
+using namespace std;
+int main ()
+{
+int n;
+cout<<" Enter no. of elements;";
+cin>>n;
+int arr[n];
+Cout << 11 Enter elements; n ^ n
+for(int i = 0 f < n i++){
+Cin>>arr[i];
+}
+for(int i = 0 i<n-1;i++)
+{ 
+for (int j=0; j<n-1-i;j++)
+{ 
+if(arr[j] > arr[j + 1])  
+int temp = arr[j];
+arr[j]=arr[j+1];
+arr [j+1] = temp;
+  }
+ }
+}
+cout<< "sorted array";
+for(int i = 0 i<n; i++)
+{
+Cout << arr[i]<<" ";
+}
+reton 0;
+}
+
+//2//
+#include <iostream>
+cusing namespace std;
+class Node
+{
+Public:
+int data, vode nevet;
+};
+int main()
+{
+Node*head = NULL, *second = Neill, *third=NULL, *fouth=NULL;
+head = new Node();
+Second = New Node(),
+third = New Node();
+fourth = New node();
+head -> date=10;
+head -> Next= Second;
+Second -> data=20;
+Second -> Next = Third;
+third -> data = 30;
+thirds->next = fourth;
+forth -> data = 40;
+fourth->next= NULL;
+node*temp = head;
+cout << "single Linked list Elements are: \n";
+while (temp != NULL)
+{
+Cout<<temp data<<*>";
+temp=temp ->next;
+}
+Cout <<"Null";
+retromo;
+}
+
+//3//
+#include <iostream>
+using namespace std;
+class Node
+{
+Public:
+int data, Node *nesst;
+}
+int main()
+{
+int n, value;
+Node*head = NULL; *Newnode = NULL, *temp=NULL;
+cout<<"Enter no. of nodes;";
+cin>>n;
+for (int i = 1; i<=n;i++)
+{
+head = Newnock;
+temp = head;
+}
+else
+{
+temp -> reset = rewnode;
+temp = new node;
+  }
+}
+temp=head;
+Cout <<"single Linked List Elements are: \n";
+While (temp!= NULL)
+{
+cout<<temp->data<<"→";
+temp = temp neat;
+}
+cout <<"NULL"
+return 0;
+}
