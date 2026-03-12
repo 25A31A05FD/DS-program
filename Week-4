@@ -1,0 +1,74 @@
+//1//
+#include <iostream>
+using name spac;
+int main()
+{
+int i, key, n=0,c=0;
+Cout<<" Enter size of the array and key element";
+cin>>n>> Key;
+int a[n];
+for(i=0;i<=n;i++)
+{
+cout<<"Enter element "<<i+1; if(a[i]==Key)
+}
+Cout <<Key <<"Element found"<<c;
+break;
+if(c==0)
+{ cout<<"Element not forevel";
+}
+};
+
+//2//
+#include <iostream>
+using namespace std;
+int main()
+{
+cout<<"Enter no.of elements";
+cin>>n;
+int arr[n];
+Cout << "Enter elements; ";
+for (int i = 0 i<n; i++)
+{
+cin>>a[i];
+}
+ for(int i=0; i<n;i++) 
+{
+  for( int j = i + 1; j < n ;j++) 
+{
+ if(ar[i] > ar[s])
+{
+int tamp =ar;
+ar[i]= ar[j];
+ar[j]=trmp;
+  }
+ }
+}
+cout<<"sorted wray; 
+for (int i= 0 , i<n; i++) 
+ cout<<ar[i]<<" ";
+
+//3//
+#include <iostream
+using namespace std; 
+int main()
+{
+int n;
+cout<<" Enter no. of elements";
+cin>>n;
+ int ar[n];
+cout<<" Entis elements";
+for (int i=0; i<n; i++)
+{ 
+for(int j=i;j>0)
+int temp = arr[j];
+arr[j]=arr[j-1];
+ arr[j-1] = temp;
+  }
+ }
+}
+cout << "sorted woray:\n";
+for(int i=0; i<n; i++){ 
+cout<<arr[i]くく" ";
+}
+return o;
+}
