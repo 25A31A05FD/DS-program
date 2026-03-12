@@ -1,0 +1,45 @@
+#include<iostream>
+
+using namespace std;
+int main()
+{
+cout<<"Supradeep"<<endl;
+cout<<"CSE"<<endl;
+cout<<"5FD"<<endl;
+cout<<"Sec-D"<<endl;
+}
+
+include<iostream>
+using namespace std;
+int main()
+{
+int a,b,c;
+cout<<"Enter 3 numbers";
+cin>>a>>b>>c;
+if(a>b&&a>c)
+cout<<"a is big";
+else if(b>a&&b>c)
+cout<<"b is big";
+else
+cout<<"c is big";
+return o;
+}
+
+#include<iostream>
+using namespace std;
+int main()
+{
+int i,n,c=0;
+cout<<"Enter n value";
+cin>>n;
+while(i<=n)
+{
+ n=n/i;
+if(n==0)
+  c++;
+i++;
+}
+if(c==2)
+ cout<<"prime";
+return 0;
+}
