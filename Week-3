@@ -1,0 +1,70 @@
+//1//
+#include <iostream>
+using namespace std;
+int main ()
+{
+int i, n;
+cout<<"Enter nvalue;
+cin>>n;
+int a[n];
+Cout<<"Enter array elements";
+for(i=0; i<n;i++)
+cin>> a[i];
+cout<<"array element";
+for(i=0; i<n; i++)
+Cout<<a[i];
+}
+//2//
+#include <iostream>
+using namespace std;
+Class student
+{
+Private:
+int roll no;
+String name;
+Public
+void read (int x, int y)
+{
+rollse;
+name=Y
+}
+void Print ()
+{
+"Cout << "roll nois" << roll<<endl;
+cout<<"name is: "<< name;
+}
+};
+int main()
+{
+Student s1;
+int rno;
+string ni
+Cout << "Enter ron and name";
+cin>>rno>>n;
+S1. read (rno, n);
+S1 print ();
+}
+//3//
+#include <soted iostream>
+using name space
+class student
+{
+Private:
+int roll;
+string name;
+Public:
+void strudent (int x, int y)
+{
+roll = x;
+Name = y;
+}
+void student()
+{
+Cout <<"roll no is;" «roll <endl;
+Coutic name is; "<< name;
+};
+int main()
+{
+student s, (2, "Pragati");
+Student S2 (4, "китол");
+}
