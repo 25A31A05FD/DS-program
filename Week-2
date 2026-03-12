@@ -1,0 +1,56 @@
+//1//
+#include <iostream>
+using namespace std;
+int main()
+{ int n; 
+cout<<" Enter a no"; 
+cin>>n; 
+ie (n<o) 
+cout<<"Factoral is not eseist"; 
+else
+Cout << factorial (number) << endl
+}
+int factorial (int n);
+{
+factorial (int n)
+ {
+if( n<=1)
+retwn 1;
+else
+retwn nfactorial(n-1);
+ }          
+}
+//2//
+#include <iostream>
+using namespace std;
+int main ()
+{
+int n, f = 1 , hat i ;
+Cout<<"prime prime Enter n value";
+cin>>n;
+for (i = 1 i < n hat i ++) 
+ {
+f = f + i;
+cout<< f;
+reton o;
+ }
+}
+
+//3//
+#include <iostream>
+using name space std;
+int main() 
+{
+int a, b;
+cout<<"Enter a,b values";
+cin<<a,b;
+cout<<"a values"<<a<<"b values"<<b;
+Swap() 
+}
+Swap (int a, int b) 
+{
+ a=a+b; 
+ b=a-b;
+ a=a-b;
+cout<<"a valu" << a << endl <<"b value"<<b
+}
